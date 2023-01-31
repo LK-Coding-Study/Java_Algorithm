@@ -5,14 +5,11 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        List a = new ArrayList<>();
-
-        int sum = 0;
-        int n = 0;
+        List<Number> a = new ArrayList<>();
 
         for (int i = 1; i<=10000; i++){
-            sum = i;
-            n = i;
+            int sum = i;
+            int n = i;
             while (n >= 1) {
                 sum += n % 10;
                 n /= 10;
