@@ -44,7 +44,6 @@ public class Main {
         System.out.println(result);
     }
     private static void dfs(int r, int c, int apple, int move_count) {
-        int temp = 0;
         /*
          -1,-1 0,-1 1,-1
          -1, 0 0, 0 1, 0
